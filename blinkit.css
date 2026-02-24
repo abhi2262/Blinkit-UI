@@ -1,0 +1,522 @@
+/*Outer*/
+#outer
+{
+    min-height:4500px;
+    width: 1500px;
+    border: 1px solid black;
+    margin: 0px auto;
+    background: #ffffff;
+}
+/*top*/
+.top
+{
+    height: 70px;
+    width: 1500px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 5px 1px gray;
+}
+.logo
+{
+    height: 70px;
+    width: 200px;
+    float: left;
+    line-height: 70px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 55px;
+    font-weight: bold;
+    border-right: 1px solid gray;
+}
+.location
+{
+    height: 70px;
+    width: 350px;
+    float: left;
+    text-align: center;
+}
+.l1 
+{
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.l2 
+{
+    color: rgb(67, 67, 67);
+}
+.search 
+{
+    height: 70px;
+    width: 550px;
+    float: left;
+    padding: 12px 10px;
+    box-sizing: border-box;
+}
+.srch
+{
+    height: 45px;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+    background: #c9c8c8;
+    margin-left: 20px;
+    border: 1px solid gray;
+}
+.login
+{
+    height: 70px;
+    width: 200px;
+    float: left;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+.lgbtn 
+{
+    height: 50px;
+    width: 120px;
+    background: rgb(219, 218, 218);
+    border: none;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.mycart 
+{
+    height: 70px;
+    width: 200px;
+    float: left;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+.mybtn 
+{
+    height: 50px;
+    width: 120px;
+    background: gray;
+    border: none;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.mybtn:hover
+{
+    background: orange;
+    color: white;
+}
+.lgbtn:hover 
+{
+    background-color: orange;
+    color: white;
+}
+
+/*Top2*/
+.top2
+{
+    height: 250px;
+    width: 1480px;
+    margin: 10px auto;
+    background:url(img/blinkitori.png);
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.t2a 
+{
+    font-size: 60px;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    color: white;
+    /*text-shadow: 5px 5px 10px 5px green;*/
+
+}
+.t2b
+{
+    font-size: 20px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    color: white;
+    letter-spacing: 2px;
+}
+.t2btn
+{
+    height: 40px;
+    width: 120px;
+    border: none;
+    background: white;
+    color:#4d8b50 ;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*Top3*/
+.top3
+{
+    height: 250px;
+    width: 1500px;
+    margin-top: 15px;
+}
+.top3a
+{
+    height: 250px;
+    width: 400px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 10px;
+    background:linear-gradient(rgba(2,188,179,.5)), url(img/poster1.png);
+    background-size: cover;
+}
+.t3a 
+{
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.t3b 
+{
+    color: white;
+    padding: 0px 40px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+.t3btn 
+{
+    height: 30px;
+    width: 120px;
+    border: none;
+    background: white;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+    margin-left: 35px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.top3b
+{
+    height: 250px;
+    width: 400px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: url(img/poster2.png);
+    background-size: cover;
+}
+.t31 
+{
+    color: black;
+    font-size: 45px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.t32 
+{
+    padding-left: 30px;
+    padding-right: 100px;
+    box-sizing: border-box;
+    font-size: 25px;
+    padding-top: 5px;
+}
+.t33btn 
+{
+    height: 30px;
+    width: 120px;
+    border: none;
+    background: black;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    margin-left: 35px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+.top3c
+{
+    height: 250px;
+    width: 400px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: url(img/poster3.png);
+    background-size: cover;
+}
+.t31c 
+{
+    color: black;
+    font-size: 45px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.t32c 
+{
+    padding-left: 30px;
+    padding-right: 100px;
+    box-sizing: border-box;
+    font-size: 25px;
+    padding-top: 5px;
+}
+.t33btnc
+{
+    height: 30px;
+    width: 120px;
+    border: none;
+    background: black;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+/*Top4*/
+.top4
+{
+    height: 400px;
+    width: 1500px;
+    margin-top: 15px;
+}
+.top4a
+{
+    height: 200px;
+    width: 1500px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.top4b
+{
+    height: 200px;
+    width: 1500px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.t4a 
+{
+    height: 180px;
+    width: 135px;
+   background: rgb(181, 178, 178,.3);
+    float: left;
+    margin-left: 10px;
+    border-radius: 10px;
+    
+}
+.t4a1 
+{
+    height:130px;
+    width: 135px;
+    border-radius: 10px;
+}
+.t4a2
+{
+    height:50px;
+    width: 135px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+.t4img 
+{
+    height: 130px;
+    width: 135px;
+    border-radius: 10px 10px 0px 0px;
+    
+
+}
+
+/*Liquid*/
+
+.litxt
+{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.product
+{
+    height: 250px;
+    width: 1500px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.box 
+{
+    height: 330px;
+    width: 200px;
+    float: left;
+    margin-left: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px gray;
+    margin-bottom: 30px;
+}
+.box1
+{
+    height: 190px;
+    width: 200px;
+}
+.box1img 
+{
+    height: 190px;
+    width: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+.box2
+{
+    height: 25px;
+    width: 200px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.box3
+{
+    height: 50px;
+    width: 200px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.box4
+{
+    height: 25px;
+    width: 200px;
+    line-height: 25px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: gray;
+}
+.box5
+{
+    height: 40px;
+    width: 200px;
+}
+.price
+{
+    height:40px;
+    width: 100px;
+    float: left;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.add
+{
+    height:40px;
+    width: 100px;
+    float: left;
+    text-align: center;
+}
+.adbtn 
+{
+    height: 30px;
+    width: 80px;
+    color: #126c17;
+    background: #d5f4dd;
+    border: 1px solid green;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+/*Footer*/
+.footer
+{
+    height: 550px;
+    width: 1500px;
+    margin-top: 150px;
+    background: rgb(249, 244, 244);
+}
+
+.f1 
+{
+    height: 350px;
+    width: 200px; 
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.ftext
+{
+    color: gray;
+    padding-left: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+    cursor: pointer;
+}
+.foote1 
+{
+    height: 70px;
+    width: 1500px;
+}
+.ftxt 
+{
+    height: 70px;
+    width: 500px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 70px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    float: left;
+}
+.ftxt1
+{
+    height: 70px;
+    width: 500px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 70px;
+    padding-left: 120px;
+    box-sizing: border-box;
+    float: left;
+}
+.f2
+{
+    height: 350px;
+    width: 300px; 
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.fd
+{
+    color: gray;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
