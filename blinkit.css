@@ -3,7 +3,7 @@
 {
     min-height:4500px;
     width: 1500px;
-    border: 1px solid black;
+   
     margin: 0px auto;
     background: #ffffff;
 }
@@ -12,7 +12,7 @@
 {
     height: 70px;
     width: 1500px;
-    border: 1px solid gray;
+    border-radius: 10px;
     box-shadow: 0px 0px 5px 1px gray;
 }
 .logo
@@ -25,7 +25,7 @@
     box-sizing: border-box;
     font-size: 55px;
     font-weight: bold;
-    border-right: 1px solid gray;
+    
 }
 .location
 {
